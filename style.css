@@ -16,17 +16,14 @@ p {
 }
 
 header {
-    padding: 0px;
-    margin: 0;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
 }
 
 header ul {
-    padding: 0px;
-    margin: 0px;
     display: flex;
+/*    flex-direction: column;*/
 }
 
 header li {
@@ -35,7 +32,7 @@ header li {
     width: 50px;
     font-weight: lighter;
     text-align: center;
-    padding: 21px 15px 19px 15px;
+    padding: 15px;
 }
 
 header li img {
@@ -49,7 +46,6 @@ a:link, li a:visited {
     font: georgia, times;
     font-weight: bold;
     font-size: 1.2em;
-    padding: 21px 15px 19px 15px;
 }
 
 header li a:hover {
