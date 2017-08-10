@@ -16,7 +16,6 @@ p {
 }
 
 header {
-    background-color: #DDDDDD;
     padding: 0px;
     margin: 0;
     justify-content: space-between;
@@ -41,7 +40,7 @@ header li {
 
 a:link, li a:visited {
     text-decoration: none;
-    color: #666666;
+    color: #777777;
     font: georgia, times;
     font-weight: bold;
     font-size: 1.2em;
@@ -49,7 +48,7 @@ a:link, li a:visited {
 }
 
 header li a:hover {
-    color: #F0F0F0;
+    color: #DDDDDD;
 }
 
 .profile-pic {
@@ -71,6 +70,7 @@ header li a:hover {
     width: 50%;
     background-color: #DDDDDD;
     border-radius: 25px;
+    color: #777777;
 }
 
 .app-description h2 {
