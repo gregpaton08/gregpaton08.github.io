@@ -12,12 +12,12 @@ header {
 header ul {
     padding: 0px;
     margin: 0px;
+    display: inline;
 }
 
 header li {
     display: inline;
     padding: 0px;
-    background-color: #DDDDDD;
     width: 150px;
     font-family: verdana, futura;
     font-weight: lighter;
@@ -38,6 +38,19 @@ header li a:hover {
     background-color: orange;
 }
 
+.profile-pic {
+    padding: 0px;
+    margin: 0px;
+/*    display: inline;*/
+    float: right;
+}
+
+.profile-pic img {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 24px;
+}
+
 .app-description {
     margin: auto;
     margin-top: 50px;
@@ -48,7 +61,7 @@ header li a:hover {
 }
 
 .app-description h2 {
-    font-family: verdana, futura;
+    font-family: helvetica, verdana, futura;
     margin: auto;
     text-align: center;
     margin: 20px;
