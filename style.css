@@ -1,6 +1,18 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0px;
     background-color: #EEE
+}
+
+p {
+    font-family: helvetica;
+    text-align: center;
+    padding: 15px;
 }
 
 header {
@@ -12,8 +24,6 @@ header {
 header ul {
     padding: 0px;
     margin: 0px;
-/*    display: inline;*/
-    
     display: flex;
 }
 
@@ -53,8 +63,8 @@ header li a:hover {
     padding: 0px;
 */
     margin: auto;
+    margin-top: 7px;
     display: block;
-    padding-top: 7px;
     border-radius: 24px;
 }
 
