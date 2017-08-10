@@ -38,7 +38,7 @@ a:link, li a:visited {
 }
 
 header li a:hover {
-    background-color: orange;
+    color: #F0F0F0;
 }
 
 .profile-pic {
