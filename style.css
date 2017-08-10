@@ -32,10 +32,14 @@ header ul {
 header li {
     display: inline;
     padding: 0px;
-    width: 150px;
+    width: 50px;
     font-weight: lighter;
     text-align: center;
     padding: 21px 15px 19px 15px;
+}
+
+header li img {
+    opacity: 0.466;
 }
 
 a:link, li a:visited {
