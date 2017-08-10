@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background-color: lightblue;
 }
 
 header {
@@ -35,4 +36,15 @@ a:link, li a:visited {
 
 header li a:hover {
     background-color: orange;
+}
+
+.app-description {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50%;
+}
+
+img {
+    margin: auto;
 }
