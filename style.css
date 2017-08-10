@@ -40,6 +40,7 @@ header li {
 
 header li img {
     opacity: 0.466;
+    filter: grayscale(100%)
 }
 
 a:link, li a:visited {
