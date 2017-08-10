@@ -39,7 +39,7 @@ header li {
 }
 
 header li img {
-    opacity: 0.466;
+    opacity: 0.50;
     filter: grayscale(100%)
 }
 
