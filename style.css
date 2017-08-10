@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background-color: lightblue;
+    background-color: #EEE
 }
 
 header {
@@ -43,13 +43,16 @@ header li a:hover {
     margin-top: 50px;
     margin-bottom: 50px;
     width: 50%;
+    background-color: #DDDDDD;
+    border-radius: 25px;
 }
 
 .app-description h2 {
     font-family: verdana, futura;
     margin: auto;
     text-align: center;
-    margin-bottom: 20px;
+    margin: 20px;
+    margin-top: 20px;
 }
 
 .app-description img {
