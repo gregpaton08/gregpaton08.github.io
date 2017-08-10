@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: helvetica;
+    color: #777777;
 }
 
 body {
@@ -71,7 +72,6 @@ header li a:hover {
     width: 50%;
     background-color: #DDDDDD;
     border-radius: 25px;
-    color: #777777;
 }
 
 .app-description h2 {
