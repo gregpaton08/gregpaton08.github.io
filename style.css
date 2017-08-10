@@ -45,6 +45,14 @@ header li a:hover {
     width: 50%;
 }
 
-img {
+.app-description h2 {
+    font-family: verdana, futura;
     margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.app-description img {
+    display: block;
+    margin: 0 auto;
 }
