@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Greg Paton
+title: About me
 permalink: /about/
 ---
 
