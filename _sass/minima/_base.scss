@@ -195,7 +195,16 @@ pre {
 /**
  * Icons
  */
-.icon > svg, .icon > i {
+.icon > svg {
+  display: inline-block;
+  vertical-align: middle;
+
+  path {
+    fill: $grey-color;
+  }
+}
+
+.icon-social-media {
   display: inline-block;
   vertical-align: middle;
 
