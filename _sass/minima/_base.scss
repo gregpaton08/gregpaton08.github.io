@@ -206,6 +206,10 @@ pre {
 
 .icon-social-media {
   display: inline-block;
+    width: 16px;
+}
+
+.icon-social-media > i {
   vertical-align: middle;
   color: #828282;
 }
@@ -213,7 +217,6 @@ pre {
 .social-media-list {
   .icon {
     padding-right: 5px;
-    width: 16px;
   }
 
   li + li {
