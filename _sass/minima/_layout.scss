@@ -202,6 +202,10 @@
   @include relative-font-size(1.5);
 }
 
+.app-icon {
+  border-radius: 15%;
+}
+
 .iphone-screenshot {
   height: auto;
 }
