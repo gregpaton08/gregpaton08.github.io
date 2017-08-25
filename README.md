@@ -2,7 +2,7 @@
 
 ## Instructions to Run Locally
 
-`
+```
 jekyll build
 jekyll serve
-`
+```
