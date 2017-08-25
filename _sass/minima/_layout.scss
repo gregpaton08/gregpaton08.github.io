@@ -210,6 +210,14 @@
   height: auto;
 }
 
+.contact-form {
+  > input, > textarea {
+    outline: none;
+    border-color: E8E8E8;
+    outline: 1px solid E8E8E8;
+    width: 25%;
+  }  
+}
 
 /**
  * Posts
