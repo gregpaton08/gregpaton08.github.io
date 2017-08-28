@@ -29,3 +29,5 @@ exclude:
 collections:
   blog_posts:
     output: true
+  projects:
+    output: true
