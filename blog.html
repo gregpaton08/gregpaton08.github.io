@@ -7,5 +7,15 @@ permalink: /blog
 <div class="blog">
 
   <h1 class="page-heading">Blog Posts</h1>
+  
+  <ul class="post-list">
+    {% for post in site.blog_posts %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
 </div>
