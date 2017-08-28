@@ -27,7 +27,5 @@ exclude:
   - Gemfile.lock
 
 collections:
-  blog_posts:
-    output: true
   projects:
     output: true
