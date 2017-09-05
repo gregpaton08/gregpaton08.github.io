@@ -29,3 +29,6 @@ exclude:
 collections:
   projects:
     output: true
+
+# Google Analytics
+google_analytics: UA—105976817-1
