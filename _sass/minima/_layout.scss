@@ -210,6 +210,11 @@
   height: auto;
 }
 
+#weather-station {
+  margin-left: -100px;
+  border: 1px solid #888888;
+}
+
 .contact-form {
   > input, > textarea {
     outline: none;
