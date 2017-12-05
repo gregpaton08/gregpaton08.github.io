@@ -215,16 +215,24 @@
   margin: auto;
 }
 
-.float-left {
-  float: left;
-}
+.side-by-side {
+  @media (min-width: 800px) {
+    display: inline-block;
+    width: 45%;
+  }
 
-.float-none {
-  float: none;
-}
+  @media (max-width: 800px) {
+    display: block;
+  }
 
-.width-half {
-  width: 50%;
+  > img {
+    height: auto;
+    margin: auto;
+
+    @media (max-width: 800px) {
+      width: 100%;
+    }
+  }
 }
 
 #weather-station {
