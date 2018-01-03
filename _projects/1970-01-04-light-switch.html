@@ -24,21 +24,34 @@ excerpt: Outlet that can be controlled through a web interface.
   <p>
     I was wandering through Target one day and came across a <a href="https://www.amazon.com/Westinghouse-28068-Indoor-2-outlet-Remote/dp/B00I7B9KIM" target="_blank">remote controlled outlet</a> sitting in a clearance bin. Huzzah! My problems were solved. I could control my pesky light with a remote. But why stop there? Why not control it from my phone, through the web?
   </p>
+  <p>
+    This was the spark that started it all, but I've sinced upgraded to more robust hardware. The major problem with using a third party remote controlled outlet was that there was no way to poll the switch to get its current status. I had no way of knowing whether the light was on or off, other than of course looking at it. So, I ended building my own solution from the ground up using a popular hardware stack used in various tutorials online.
+  </p>
 
   <h2>
     Hardware
   </h2>
   <p>
-    The hardware is a slightly modified <a href="https://www.amazon.com/Westinghouse-28068-Indoor-2-outlet-Remote/dp/B00I7B9KIM" target="_blank">Westinghouse 28068 Indoor 2-outlet Remote</a> that I picked up for cheap on a post-Christmas sale. The unit consists of a box that sits between the lamp's power cord and the wallet outlet along with a remote to control it. The portion that plugs into the wall was left as is. The remote was ripped apart, a few resistors and transistors were added, and now it's controlled using a <a href="https://www.raspberrypi.org/" target="_blank">Raspberry Pi</a> which exposes control via a REST API and a basic web page that I can access on my local network.
+    The hardware is on its second iteration. You can see version 1.0 <a href="{{ site.baseurl }}{% link light-switch-hardware-v1.html %}">here</a>.
   </p>
-  <div>
-    <div class="side-by-side">
-      <img src="{{ site.url }}/assets/light-switch-remote-circuit-board-2.JPG">
-    </div>
-    <div class="side-by-side">
-      <img src="{{ site.url }}/assets/light-switch-remote-circuit-board-1.JPG">
-    </div>
-  </div>
+  <p>
+    The hardware uses two nrf24l01 radios, one connected to a Raspberry Pi acting as a control hub, the other connected to an Arduino controlling a relay to turn the light on and off. The pinout for the Raspberry Pi and the schematic for the Arduino hardware can be seen here.
+  </p>
+  <p>
+    {% highlight python %}
+### NRF24l01 pinout
+# 1 GND  =>  ground
+# 2 VCC  =>  3.3V
+# 3 CE   =>  GPIO22
+# 4 CSN  =>  SPI CE0
+# 5 SCK  =>  CPI CLK
+# 6 MOSI =>  SPI MOSI
+# 7 MISO =>  SPI MISO
+# 8 IRQ  =>  ?{% endhighlight %}
+  </p>
+  <p>
+    <img src="{{ site.url }}/assets/light-switch-schematic.svg">
+  </p>
   <h2>
     Web Interface
   </h2>
