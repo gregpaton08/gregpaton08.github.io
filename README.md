@@ -1,4 +1,4 @@
-# gregpaton08.github.io
+# gregpaton08.com
 
 ## Instructions to Run Locally
 
