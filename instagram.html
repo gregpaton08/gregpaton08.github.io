@@ -14,9 +14,11 @@ permalink: /instagram
     {% assign post_name = image.name | remove: ".jpg" %}
     {% assign filtered_posts = site.posts | where_exp:'item','item.path contains post_name' %}
     
-    <a href="{{ filtered_posts[0].url | relative_url }}">
-      <img class="instagram-image" src="{{ site.baseurl }}{{ image.path }}" alt="image" />
-    </a>
+      <a href="{{ filtered_posts[0].url | relative_url }}">
+          <div class="instagram-image-container">
+        <img class="instagram-image" src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+      </div>
+      </a>
   {% endfor %}
 
 </div>

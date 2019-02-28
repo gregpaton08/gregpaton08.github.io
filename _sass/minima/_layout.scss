@@ -320,11 +320,28 @@
   }
 }
 
+.instagram-image-container {
+  position: relative;
+  width: 30%;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.instagram-image-container:before {
+  content: "";
+  display: block;
+  padding-top: 100%;  /* ratio of 1:1*/
+}
+
 .instagram-image {
-  padding: 0;
-  margin: 0;
-  width: 240px;
-  height: 240px;
+  vertical-align: middle;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 
