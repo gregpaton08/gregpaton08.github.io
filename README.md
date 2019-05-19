@@ -12,3 +12,7 @@ gem install bundler jekyll
 jekyll build
 jekyll serve
 ```
+
+## References
+[https://jekyllrb.com/docs/](jekyll)
+[https://shopify.github.io/liquid/](liquid)
