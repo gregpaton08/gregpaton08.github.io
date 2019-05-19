@@ -9,7 +9,8 @@ permalink: /projects/
   <h1 class="page-heading">Projects</h1>
   
   <ul class="post-list">
-    {% for post in site.projects %}
+    {% assign sorted_projects = site.projects | sort:"project_order" %}
+    {% for post in sorted_projects %}
       <li>
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">
