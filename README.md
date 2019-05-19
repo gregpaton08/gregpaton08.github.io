@@ -14,5 +14,5 @@ jekyll serve
 ```
 
 ## References
-[https://jekyllrb.com/docs/](jekyll)  
-[https://shopify.github.io/liquid/](liquid)
+[jekyll](https://jekyllrb.com/docs/)  
+[liquid](https://shopify.github.io/liquid/)
