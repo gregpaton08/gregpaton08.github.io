@@ -1,4 +1,4 @@
-# gregpaton08.com
+# [gregpaton08.com](gregpaton08.com)
 
 ## Instructions to Run Locally
 
