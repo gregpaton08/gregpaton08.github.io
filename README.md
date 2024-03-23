@@ -4,7 +4,11 @@
 
 ### Install jekyll
 ```
+brew update
+brew install ruby
+export GEM_HOME="$HOME/.gem"
 gem install bundler jekyll
+export PATH=$HOME/.gem/bin:$PATH
 ```
 
 ### Build and Run
