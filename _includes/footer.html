@@ -27,7 +27,7 @@
             {% include icon-github.html username=site.github_username %}
           </li>
           {% endif %}
-          
+
           <li>
             <a href="https://www.linkedin.com/in/greg-paton-63966544/">
               <span class="icon icon-social-media">
@@ -38,7 +38,13 @@
               </span>
             </a>
           </li>
-          
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+
           <li>
             <a href="https://www.instagram.com/gregpaton08/">
               <span class="icon icon-social-media">
@@ -49,12 +55,6 @@
               </span>
             </a>
           </li>
-          
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
           
         </ul>
       </div>
